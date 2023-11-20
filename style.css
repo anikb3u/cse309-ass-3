@@ -1,0 +1,63 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.login_stuff{
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height:600px;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.747) ;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(130, 77, 179, 0.685);
+}
+.login_image{
+    display: inline-block;
+    width: 120px;
+    height:120px;
+    background-position: center;
+    background-size: cover;   
+    background-image: url(user.avif);
+    border-radius: 50%;
+
+}
+
+.login_content input{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.button{
+    margin-top:2% ;
+background: #7906c56b;
+border: none;
+border-radius: 12%;
+padding: 2%;
+}
+button:hover{
+    background-color: rgba(226, 162, 43, 0.637);
+}
+.error{
+    background:#F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+}
+#mess{
+    display: block;
+    margin: none;
+    padding: 40px;
+}
