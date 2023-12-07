@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <div id="left">
+        <div id="left_txt">
+            <h3>Address</h3><br>
+            <p>Mada Center 8th Floor, 379 Hudson St, New York, NY 10018 US</p><br>
+            <h3>Lets Talk</h3><br>
+            <p>+1 800 1236879</p><br>
+            <h3>General Support</h3><br>
+            <p>contact@example.com</p><br>
+
+        </div>
+
+
+    </div>
+    <div id="right">
+        <form id="form" action="signup.php" method="post">
+
+            <div id="right_txt">
+                First Name<br> <input class="input" type="text" name="fname"><br>
+                <br>Last Name <br><input class="input" type="text" name="lname"><br>
+                <br>Contact Number <br><input class="input" type="text" name="contact"><br>
+                <input type="hidden" name="form-submitted" value="1"><br>
+                Write a Message<br><textarea id="textarea" type="text" name="message"></textarea><br>
+                <br>
+                <input class="btn" type="submit" value="Submit">
+                <input class="btn" type="reset" value="Reset">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+
+
+
+</html>
